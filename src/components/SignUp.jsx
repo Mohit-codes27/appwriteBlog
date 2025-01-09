@@ -166,7 +166,7 @@ function SignUp() {
                                     type="number"
                                     placeholder="Enter your Phone Number"
                                     className="w-[350px]"
-                                    {...register("phone", {
+                                    {...register("phoneNumber", {
                                         required: true,
                                     })}
                                 />
